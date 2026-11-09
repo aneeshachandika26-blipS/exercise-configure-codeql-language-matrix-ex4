@@ -9,9 +9,9 @@ jobs:
     runs-on: ubuntu-latest
 
     strategy:
-      fail-fast: false
       matrix:
-        language:[ 'javascript' , 'python' ]
+        language: 
+          - csharp
       
 
     permissions:
